@@ -1,0 +1,25 @@
+[
+{
+  "directory": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --gcc-toolchain=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcrypto_utils_EXPORTS -I/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/crypto-utils.dir/AES.cpp.o -c /Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/AES.cpp",
+  "file": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/AES.cpp"
+},
+
+{
+  "directory": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --gcc-toolchain=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcrypto_utils_EXPORTS -I/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/crypto-utils.dir/Base64.cpp.o -c /Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/Base64.cpp",
+  "file": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/Base64.cpp"
+},
+
+{
+  "directory": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --gcc-toolchain=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcrypto_utils_EXPORTS -I/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/crypto-utils.dir/CryptoUtils.cpp.o -c /Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/CryptoUtils.cpp",
+  "file": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/CryptoUtils.cpp"
+},
+
+{
+  "directory": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --gcc-toolchain=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcrypto_utils_EXPORTS -I/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/crypto-utils.dir/JniCallNative.cpp.o -c /Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/JniCallNative.cpp",
+  "file": "/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/cpp/JniCallNative.cpp"
+}
+]

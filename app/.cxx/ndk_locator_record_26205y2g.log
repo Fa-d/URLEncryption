@@ -1,0 +1,74 @@
+[
+  {
+    "level": "INFO",
+    "message": "android.ndkVersion from module build.gradle is not set"
+  },
+  {
+    "level": "INFO",
+    "message": "ndk.dir in local.properties is /Users/pengfei.guo/project/android-ndk-r16b"
+  },
+  {
+    "level": "INFO",
+    "message": "ANDROID_NDK_HOME environment variable is not set"
+  },
+  {
+    "level": "INFO",
+    "message": "sdkFolder is /Users/kolpolok/Library/Android/sdk"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/pengfei.guo/project/android-ndk-r16b by ndk.dir"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/24.0.8215888 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/21.4.7075529 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/16.1.4479499 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/20.0.5594570 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/21.0.6113669 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/25.1.8937393 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/21.1.6352462 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/kolpolok/Library/Android/sdk/ndk/23.1.7779620 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/pengfei.guo/project/android-ndk-r16b by ndk.dir because that location has no source.properties"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/kolpolok/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
+  },
+  {
+    "level": "ERROR",
+    "message": "Location specified by ndk.dir (/Users/pengfei.guo/project/android-ndk-r16b) did not contain a valid NDK and and couldn\u0027t be used"
+  },
+  {
+    "level": "INFO",
+    "message": "Using /Users/kolpolok/Library/Android/sdk/ndk/25.1.8937393 which is version 25.1.8937393 as fallback but build will fail"
+  }
+]

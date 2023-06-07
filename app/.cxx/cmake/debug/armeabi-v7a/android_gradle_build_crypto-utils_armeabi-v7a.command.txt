@@ -1,0 +1,7 @@
+Executable : /Users/kolpolok/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/.cxx/cmake/debug/armeabi-v7a
+crypto-utils
+jvmArgs : 
+

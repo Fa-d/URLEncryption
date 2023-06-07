@@ -1,0 +1,18 @@
+# ninja log v5
+1	407	1686111942	CMakeFiles/crypto-utils.dir/JniCallNative.cpp.o	c62d878d0e92c3e6
+0	644	1686111943	CMakeFiles/crypto-utils.dir/Base64.cpp.o	f289bd9ab02b80cc
+0	679	1686111943	CMakeFiles/crypto-utils.dir/CryptoUtils.cpp.o	a6bbc6214ce2f65f
+0	733	1686111943	CMakeFiles/crypto-utils.dir/AES.cpp.o	6e8fc6057917da76
+733	897	1686111943	/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/jniLibs/x86_64/libcrypto-utils.so	b8607a2793c77d30
+0	10	0	clean	2d69e4960a6b8b85
+2	477	1686111968	CMakeFiles/crypto-utils.dir/JniCallNative.cpp.o	c62d878d0e92c3e6
+2	736	1686111968	CMakeFiles/crypto-utils.dir/Base64.cpp.o	f289bd9ab02b80cc
+2	755	1686111968	CMakeFiles/crypto-utils.dir/CryptoUtils.cpp.o	a6bbc6214ce2f65f
+1	840	1686111968	CMakeFiles/crypto-utils.dir/AES.cpp.o	6e8fc6057917da76
+840	1071	1686111968	/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/jniLibs/x86_64/libcrypto-utils.so	b8607a2793c77d30
+0	9	0	clean	2d69e4960a6b8b85
+2	451	1686112283	CMakeFiles/crypto-utils.dir/JniCallNative.cpp.o	c62d878d0e92c3e6
+1	688	1686112283	CMakeFiles/crypto-utils.dir/Base64.cpp.o	f289bd9ab02b80cc
+2	739	1686112283	CMakeFiles/crypto-utils.dir/CryptoUtils.cpp.o	a6bbc6214ce2f65f
+1	793	1686112283	CMakeFiles/crypto-utils.dir/AES.cpp.o	6e8fc6057917da76
+793	970	1686112283	/Users/kolpolok/AndroidStudioProjects/copies/2/cplusplus-aes/app/src/main/jniLibs/x86_64/libcrypto-utils.so	b8607a2793c77d30

@@ -6,7 +6,7 @@
 #include <string>
 #include "CryptoUtils.h"
 extern "C"
-JNIEXPORT jstring JNICALL Java_com_casual_libcrypto_JniCallNative_Encrypt
+JNIEXPORT jstring JNICALL Java_com_faddy_libcrypto_JniCallNative_Encrypt
         (JNIEnv *env, jclass, jstring plaintext)
 {
     const char* chars = env->GetStringUTFChars(plaintext, 0);
@@ -16,7 +16,7 @@ JNIEXPORT jstring JNICALL Java_com_casual_libcrypto_JniCallNative_Encrypt
     return env->NewStringUTF(text.c_str());
 }
 extern "C"
-JNIEXPORT jstring JNICALL Java_com_casual_libcrypto_JniCallNative_Decrypt
+JNIEXPORT jstring JNICALL Java_com_faddy_libcrypto_JniCallNative_Decrypt
         (JNIEnv *env, jclass, jstring plaintext)
 {
     const char* chars = env->GetStringUTFChars(plaintext, 0);

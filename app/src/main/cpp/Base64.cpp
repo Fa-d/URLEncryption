@@ -1,7 +1,3 @@
-//
-// Created by pengfei.guo on 2021/12/8.
-//
-
 #include "base64.h"
 #include <iostream>
 #include <ctype.h>

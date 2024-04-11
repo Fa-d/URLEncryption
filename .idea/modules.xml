@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/URLEncryptionx.iml" filepath="$PROJECT_DIR$/.idea/modules/URLEncryptionx.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryptionx.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/URLEncryption.iml" filepath="$PROJECT_DIR$/.idea/modules/URLEncryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/URLEncryption.app.unitTest.iml" />
     </modules>
   </component>
 </project>

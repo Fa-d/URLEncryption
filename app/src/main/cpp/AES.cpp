@@ -1,6 +1,3 @@
-//
-// Created by pengfei.guo on 2021/12/8.
-//
 #include <cstring>
 #include <exception>
 #include "AES.h"

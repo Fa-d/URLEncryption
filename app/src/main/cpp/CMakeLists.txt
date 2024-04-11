@@ -18,7 +18,7 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/)
 # Gradle automatically packages shared libraries with your APK.
 
 add_library( # Sets the name of the library.
-             crypto-utils
+             blackbox
 
              # Sets the library as a shared library.
              SHARED
@@ -40,7 +40,7 @@ add_library( # Sets the name of the library.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-                        crypto-utils
+                        blackbox
 
                        # Links the target library to the log library
                        # included in the NDK.

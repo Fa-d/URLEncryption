@@ -1,7 +1,3 @@
-//
-// Created by pengfei.guo on 2021/12/8.
-//
-
 #include <iostream>
 #include "AES.h"
 #include "Base64.h"
@@ -84,23 +80,3 @@ string Decrypt(const string& strSrc) //AES解密
     delete[] szDataOut;
     return strDest;
 }
-//extern "C"
-//JNIEXPORT jstring JNICALL
-//Java_com_math3_libsqlite_MainActivity_Encrypt(JNIEnv *env, jobject thiz, jstring plaintext) {
-//    // TODO: implement Encrypt()
-//    const char* chars = env->GetStringUTFChars(plaintext, 0);
-//    std::string str = std::string(chars);
-//    std::string text = EncryptionAES(str);
-//    env->ReleaseStringUTFChars(plaintext, chars);
-//    return env->NewStringUTF(text.c_str());
-//}
-//extern "C"
-//JNIEXPORT jstring JNICALL
-//Java_com_math3_libsqlite_MainActivity_Dencrypt(JNIEnv *env, jobject thiz, jstring plaintext) {
-//    // TODO: implement Dencrypt()
-//    const char* chars = env->GetStringUTFChars(plaintext, 0);
-//    std::string str = std::string(chars);
-//    std::string text = DecryptionAES(str);
-//    env->ReleaseStringUTFChars(plaintext, chars);
-//    return env->NewStringUTF(text.c_str());
-//}

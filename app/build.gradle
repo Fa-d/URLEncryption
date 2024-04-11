@@ -3,11 +3,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdk 34
     defaultConfig {
         applicationId "com.casual.libcrypto"
         minSdkVersion 24
         targetSdkVersion 33
+        ndkVersion "26.3.11579264"
         versionCode 1
         versionName "1.0"
 
@@ -31,26 +32,25 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     externalNativeBuild {
         cmake {
             path file('src/main/cpp/CMakeLists.txt')
-            version '3.10.2'
+            version '3.27.2'
         }
     }
-    packagingOptions{
-        pickFirst 'lib/armeabi-v7a/libcrypto-utils.so'
-        pickFirst 'lib/arm64-v8a/libcrypto-utils.so'
+    packagingOptions {
+        jniLibs {
+            pickFirsts += ['lib/armeabi-v7a/libcrypto-utils.so', 'lib/arm64-v8a/libcrypto-utils.so']
+        }
     }
+    namespace 'com.casual.libcrypto'
 }
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
